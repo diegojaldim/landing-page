@@ -13,16 +13,25 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [
-                    MiniCssExtractPlugin.loader,
-                    'css-loader',
-                    'sass-loader',
-                ]
+                    {loader: MiniCssExtractPlugin.loader, options: { publicPath: '' }},
+                    {loader: 'css-loader', options: {sourceMap: true}},
+                    {loader: 'sass-loader', options: {sourceMap: true}},
+                ],
             },
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: ["babel-loader"]
-            }
+            },
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                    },
+                ],
+
+            },
         ]
     },
     plugins: [
