@@ -6,10 +6,6 @@
 
   #ceo-article {
     .title {
-      text-transform: uppercase;
-      color: $color-gray;
-      font-size: 20px;
-      font-weight: 600;
       line-height: 28px;
 
       span {
@@ -21,6 +17,7 @@
 
     .article {
       margin-top: 25px;
+      text-align: justify;
     }
   }
 

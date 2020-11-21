@@ -2,7 +2,7 @@
 
 html, body {
   background: $color-white;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Open Sans', sans-serif;
   color: $color-gray;
   font-size: 16px;
 }
@@ -21,4 +21,11 @@ html, body {
 
 .img-responsive {
   width: 100%;
+}
+
+.title {
+  text-transform: uppercase;
+  color: $color-gray;
+  font-size: 20px;
+  font-weight: 600;
 }
