@@ -1,0 +1,17 @@
+
+#team {
+  background-color: $color-gray-light;
+  padding-bottom: 50px;
+
+  .title {
+    text-transform: uppercase;
+    color: $color-gray;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .team-items {
+    margin-top: 35px;
+  }
+}
