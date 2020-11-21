@@ -3,6 +3,8 @@
 html, body {
   background: $color-white;
   font-family: 'Open Sans', sans-serif !important;
+  color: $color-gray;
+  font-size: 16px;
 }
 
 .link {
@@ -17,48 +19,6 @@ html, body {
   }
 }
 
-#header-title {
-  position: relative;
-  height: 500px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('./assets/img/foto-header.png');
-
-  h1 {
-    color: $color-white;
-    font-weight: 600;
-    font-size: 55px;
-    text-shadow: 3px 4px rgba(0,0,0,0.2);
-  }
-
-}
-
-#header-info {
-  margin: 25px 0;
-  padding: 0 15px;
-  position: relative;
-
-  h4 {
-    font-size: 18px;
-    color: $color-gray;
-    text-align: center;
-  }
-
-  &:after {
-    position: absolute;
-    content: "";
-    border: 1px solid $color-gray-line;
-    width: 220px;
-    left: 40%;
-    bottom: -25px;
-  }
-}
-
-#header-link {
-  margin-top: 40px;
-  text-align: center;
+.img-responsive {
+  width: 100%;
 }

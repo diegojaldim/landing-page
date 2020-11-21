@@ -1,0 +1,27 @@
+
+#ceo {
+  padding: 50px 0;
+  margin: 50px 0;
+  background-color: $color-gray-light;
+
+  #ceo-article {
+    .title {
+      text-transform: uppercase;
+      color: $color-gray;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 28px;
+
+      span {
+        text-transform: none;
+        font-style: italic;
+        color: $color-orange-title;
+      }
+    }
+
+    .article {
+      margin-top: 25px;
+    }
+  }
+
+}
